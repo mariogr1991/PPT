@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <title>Dummie</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/estilos.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script src="js/funciones.js"></script>
+</head>
+<body>
+  <nav class="navbar navbar-light navegacion">
+    <a class="navbar-brand fuente" style="margin-left:20px;">Irving App</a>
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" class="fuente" onclick="Tab(1)">Students</a></li>
+      <li><a href="#" class="fuente" onclick="Tab(2)">Teachers</a></li>
+      <li><a href="#" class="fuente" onclick="Tab(3)">RPS</a></li>
+    </ul>
+  </nav>
+  <div id="Juego" class="content jkl">
+    <h2 class="espacio">Juega piedra papel o tijera!</h2>
+    <div class="espbtn">
+      <button id="Piedra" type="button" class="btn btn-primary btn-lg" onclick="Play(1)">Piedra  </button>
+      <button id="Papel" type="button" class="btn btn-primary btn-lg" onclick="Play(2)">Papel  </button>
+      <button id="Tijera" type="button" class="btn btn-primary btn-lg" onclick="Play(3)">Tijera   </button>
+    </div>
+    <div id="MensajeJuego" class=espbtn>
+    </div>
+  <div>
+</body>
+<script>
+$( document ).ready(function() {
+  $("#Juego").hide();
+});
+</script>
+</html>
