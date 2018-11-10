@@ -1,0 +1,74 @@
+.navegacion{
+background-color: #EB5757;
+}
+
+.fuente{
+  font-family:sans-serif;
+  font-size: 16px;
+  color: #fff;
+}
+
+.navbar-right{
+  margin-right: 20px;
+}
+
+.nav>li>a:hover{
+  background-color: #EB5757;
+  color:#fff;
+}
+
+.fuente:hover{
+  color:#fff;
+}
+
+.btn.disabled, .btn[disabled], fieldset[disabled] .btn{
+  cursor: auto;
+  opacity: 100;
+}
+
+.perdedor{
+  color: #F08181;
+}
+
+.ganador{
+  color: #6FCF97;
+}
+
+.jkl
+{
+  margin-left: 20px;
+}
+
+.btn-primary
+{
+  background-color: #2D9CDB;
+  border-color: #2D9CDB;
+  font-size: 24px;
+  margin-right: 10px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+
+}
+
+.btn-primary:hover{
+  background-color: #2D9CDB;
+  border-color: #2D9CDB;
+}
+
+.btn.disabled:hover, .btn[disabled]:hover{
+  background-color: #2D9CDB;
+  border-color: #2D9CDB;
+}
+
+.btn-group-lg>.btn, .btn-lg{
+  padding: 10px 30px;
+}
+
+.espacio{
+  margin-top: 60px;
+  margin-left: 80px;
+}
+
+.espbtn{
+  margin-left: 80px;
+}
